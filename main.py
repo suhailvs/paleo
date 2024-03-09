@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 def paleo_to_hebrew(paleo):
     # from word2word import Word2word # pip install word2word
     # he2en = Word2word('he','en')
@@ -47,7 +46,6 @@ def get_verse(book, chapter, verse):
     for word in paleo.split(" "):
         trans += f'{df2[df2["p"] == word].iloc[0,1]} '
     print(trans)
-
 
 if __name__ == "__main__":
     get_verse(1, 1, 1)
