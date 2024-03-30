@@ -31,11 +31,11 @@
           maxNativeZoom: 11,
           minZoom: mapMinZoom,
           maxZoom: mapMaxZoom,
-          // bounds: mapBounds,
         }).addTo(map);
-
+        map.setMaxBounds([[-0.375, 0], [0, 2.376]]);
         map.on("click", function (e) {
           let currZoom = map.getZoom();
+          // let bounds = map.getBounds();
           if (currZoom == mapMaxZoom) {
             let requestform = e.latlng;
             let formpopup = L.popup()
