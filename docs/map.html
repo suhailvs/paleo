@@ -4,10 +4,7 @@
     <title>11QpaleoLev</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-    <link
-      rel="stylesheet"
-      href="static/leaflet/leaflet.css"
-    />
+    <link rel="stylesheet" href="static/leaflet/leaflet.css" />
     <script src="static/leaflet/leaflet.js"></script>
     <style>
       html,
@@ -36,6 +33,17 @@
           maxZoom: mapMaxZoom,
           // bounds: mapBounds,
         }).addTo(map);
+
+        map.on("click", function (e) {
+          let currZoom = map.getZoom();
+          if (currZoom == mapMaxZoom) {
+            let requestform = e.latlng;
+            let formpopup = L.popup()
+              .setLatLng(requestform)
+              .setContent(`${e.latlng.lat}`)
+              .openOn(map);
+          }
+        });
       }
     </script>
   </body>
