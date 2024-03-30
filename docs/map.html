@@ -5,8 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="static/paleo/paleo.css" />
-    <link rel="stylesheet" href="static/leaflet/leaflet.css" />
-    <script src="static/leaflet/leaflet.js"></script>
+    <link rel="stylesheet" href="static/leaflet/leaflet.css" />    
     <style>
       html,
       body,
@@ -19,14 +18,10 @@
   <body onload="init()">
         <!-- https://www.deadseascrolls.org.il/explore-the-archive/image/B-497904 -->
     <div id="map"></div>
+    <script src="static/leaflet/leaflet.js"></script>
+    <script src="static/get_content.js"></script>
     <script>
-      function getContent(latlng) {
-        return `<span style="font-size:25px">
-          <span class="icon-22"></span>
-          <span class="icon-14"></span>
-          <span class="icon-21"></span>
-        </span><br>${latlng.lat}, ${latlng.lng}`
-      }
+      
       function init() {
         var mapMinZoom = 10;
         var mapMaxZoom = 12;
