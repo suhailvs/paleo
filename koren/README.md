@@ -1,5 +1,7 @@
 ## Michigan-Clairmont transliteration scheme (modified)
 
+https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
+
  A = Alef  B = Beit  G = Gimmel D = Dalet H = Hey  W = Waw
  Z = Zain  X = Chet  + = Tet    Y = Yud   K = Kaf  L = Lamed
  M = Mem   N = Nun   S = Samech @ = Ayin  P = Pey  C = Tzadi
