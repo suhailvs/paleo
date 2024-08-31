@@ -28,6 +28,9 @@ https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
  Z = Zain  X = Chet  + = Tet    Y = Yud   K = Kaf  L = Lamed
  M = Mem   N = Nun   S = Samech @ = Ayin  P = Pey  C = Tzadi
  Q = Kuf   R = Reish $ = Shin   T = Tav
+
+ PLETTERS = "abgdefzhjiklmnxopsqrct"
+ KOREN = 'ABGDHWZX+YKLMNS@PCQR$T'
 ```
 
 The standard characters for Alef and Ayin are ) and (, but we
