@@ -18,3 +18,17 @@
 6. (33) larci inb kftb mtzha afe mifle iro itb ik lbib ftzha
 7. (34) ... mlfo tzha ik rkmi al ...
 8. (36) ... kielam tarif tibrtf kcn ftam hqt la (35) kmo ihf bcftf rg fb ...
+
+### Michigan-Clairmont transliteration scheme (modified)
+https://github.com/TorahBibleCodes/TorahBibleCodes
+https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
+
+```
+ A = Alef  B = Beit  G = Gimmel D = Dalet H = Hey  W = Waw
+ Z = Zain  X = Chet  + = Tet    Y = Yud   K = Kaf  L = Lamed
+ M = Mem   N = Nun   S = Samech @ = Ayin  P = Pey  C = Tzadi
+ Q = Kuf   R = Reish $ = Shin   T = Tav
+```
+
+The standard characters for Alef and Ayin are ) and (, but we
+have found they are a major source of transliteration error.
