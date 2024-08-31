@@ -32,6 +32,32 @@ https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
  PLETTERS = "abgdefzhjiklmnxopsqrct"
  KOREN = 'ABGDHWZX+YKLMNS@PCQR$T'
 ```
-
 The standard characters for Alef and Ayin are ) and (, but we
 have found they are a major source of transliteration error.
+
+My | Koren | Def 
+-- | -- | --
+a | A | Alef
+b | B | Beit
+g | G | Gimmel
+d | D | Dalet
+e | H | Hey
+f | W | Waw
+z | Z | Zain
+h | X | Chet
+j | + | Tet
+i | Y | Yud
+k | K | Kaf
+l | L | Lamed
+m | M | Mem
+n | N | Nun
+x | S | Samech
+o | @ | Ayin
+p | P | Pey
+s | C | Tzadi
+q | Q | Kuf
+r | R | Reish
+c | $ | Shin
+t | T | Tav
+
+
