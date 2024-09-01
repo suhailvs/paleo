@@ -1,5 +1,9 @@
 ## Paleo Hebrew
 
+### torahs
+
+- **torah2.csv** Koren: https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html 
+- **torah3.csv** Leningrad: https://github.com/TorahBibleCodes/Sefaria-Export/ 
 ### Usage
 
     $ python3 -m venv env
@@ -20,8 +24,9 @@
 8. (36) ... kielam tarif tibrtf kcn ftam hqt la (35) kmo ihf bcftf rg fb ...
 
 ### Michigan-Clairmont transliteration scheme (modified)
-https://github.com/TorahBibleCodes/TorahBibleCodes
-https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
+
+- https://github.com/TorahBibleCodes/TorahBibleCodes
+- https://users.cecs.anu.edu.au/~bdm/dilugim/StatSci/data.html
 
 ```
  A = Alef  B = Beit  G = Gimmel D = Dalet H = Hey  W = Waw
